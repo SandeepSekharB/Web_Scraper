@@ -19,7 +19,7 @@ This repository consists of the web scraping code which mines supplier informati
 * requirements.txt - List of libraries to be installed
 
 ## Usage:
-* Install the required libraries mentioned in requirements.txt 
+* Install the required libraries mentioned in requirements.txt (pip install -r requirements.txt)
 * Update the files products.txt and city.txt as per your requirements  
 * Run main.py
 * The data will be extracted and stored in a new directory named "data"
