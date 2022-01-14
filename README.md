@@ -51,5 +51,6 @@ The csv files consist of the following columns:
 * Facebook pages are only retrieved for particular cities (which are listed in fb_data.py)
 * For cities not included in fb_data.py, the Facebook and email ID columns will not be present in the csv file  
 * Email-Ids are also extracted only if they are present in the facebook page
-* In the case where multiple email IDs are present for a single facebook page, the retrieved email IDs could be spurious  
+* In the case where multiple email IDs are present for a single facebook page, the retrieved email IDs could be spurious
+* As the code uses selenium for facebook pages, Chrome browser tabs could open up and close automatically to retrieve data.  
 * **IMPORTANT: Trying to extract a large amount of data from facebook contiuously, could get your account banned** 
