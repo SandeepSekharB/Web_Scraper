@@ -1,0 +1,4 @@
+Wholesaler biz=30
+Manufacturer biz=10
+Exporter biz=20
+Retailer biz=40
